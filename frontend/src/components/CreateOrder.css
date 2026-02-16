@@ -1,0 +1,49 @@
+.create-order {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.order-items-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-header h3 {
+  color: #111827;
+  margin: 0;
+}
+
+.order-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.order-summary {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: #f0f9ff;
+  border-radius: 8px;
+}
+
+.order-summary h3 {
+  margin-bottom: 1rem;
+  color: #111827;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}

@@ -1,0 +1,130 @@
+.dashboard {
+  padding: 4rem 2rem 2rem;
+  background: var(--bg-tertiary, #ebe6de);
+}
+
+.dashboard h1 {
+  margin-bottom: 2rem;
+  color: var(--text-primary, #2c2416);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.75rem;
+  margin-bottom: 3rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px var(--shadow);
+  border: 1px solid var(--border-color, #d4cdc2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px var(--shadow-hover);
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  color: var(--text-secondary, #4a4035);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Light/dark combo - wood-inspired stat cards */
+.stat-card-blue {
+  background: linear-gradient(135deg, #f0ede8 0%, #e8e2d9 100%);
+  border-left: 4px solid #5c4a32;
+}
+
+.stat-card-blue .stat-value {
+  color: #3d3226;
+}
+
+.stat-card-yellow {
+  background: linear-gradient(135deg, #f5f1eb 0%, #ebe6de 100%);
+  border-left: 4px solid #8b7355;
+}
+
+.stat-card-yellow .stat-value {
+  color: #5c4a32;
+}
+
+.stat-card-green {
+  background: linear-gradient(135deg, #e8f0ec 0%, #d4e4dc 100%);
+  border-left: 4px solid #0d7a4a;
+}
+
+.stat-card-green .stat-value {
+  color: #065f39;
+}
+
+.stat-card-red {
+  background: linear-gradient(135deg, #f5ebe8 0%, #e8ddd9 100%);
+  border-left: 4px solid #b91c1c;
+}
+
+.stat-card-red .stat-value {
+  color: #991b1b;
+}
+
+.quick-actions {
+  margin-top: 3rem;
+}
+
+.quick-actions h2 {
+  margin-bottom: 1.5rem;
+  color: var(--text-primary, #2c2416);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.action-buttons .btn {
+  padding: 0.875rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+}
+
+.action-buttons .btn-primary {
+  background: var(--maroon, #722F37);
+  color: white;
+}
+
+.action-buttons .btn-primary:hover {
+  background: var(--maroon-dark, #5c2630);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(114, 47, 55, 0.35);
+}
+
+.action-buttons .btn-secondary {
+  background: var(--maroon-dark, #5c2630);
+  color: white;
+}
+
+.action-buttons .btn-secondary:hover {
+  background: var(--maroon, #722F37);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(92, 74, 50, 0.25);
+}
+
+/* contact/map styles removed – map now lives on public contact page */

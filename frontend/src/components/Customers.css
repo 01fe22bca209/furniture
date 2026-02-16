@@ -1,0 +1,11 @@
+.customer-form {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.customer-form h3 {
+  margin: 1.5rem 0 1rem 0;
+  color: #374151;
+}

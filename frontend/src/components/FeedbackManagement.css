@@ -1,0 +1,157 @@
+.feedback-management {
+  padding: 2rem;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.feedback-header h1 {
+  font-size: 2rem;
+  color: #111827;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sort-controls label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.sort-controls select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feedback-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.feedback-content {
+  flex: 1;
+}
+
+.feedback-title {
+  font-size: 1.25rem;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-meta {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.feedback-text {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.feedback-customer {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.admin-reply {
+  background: #f0f9ff;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #3b82f6;
+  margin-top: 1rem;
+}
+
+.admin-reply strong {
+  color: #1e40af;
+}
+
+.admin-reply p {
+  color: #1e3a8a;
+  margin: 0.5rem 0;
+}
+
+.admin-reply small {
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.reply-section {
+  margin-top: 1rem;
+}
+
+.reply-section textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 0.5rem;
+}
+
+.reply-section textarea:focus {
+  outline: none;
+  border-color: #722F37;
+}
+
+.btn-reply {
+  background: #722F37;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-reply:hover {
+  background: #5c2630;
+}
+
+.feedback-actions {
+  display: flex;
+  align-items: flex-start;
+}
+
+.btn-hide {
+  background: #ef4444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-hide:hover {
+  background: #dc2626;
+}
