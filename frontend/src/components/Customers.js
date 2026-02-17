@@ -215,27 +215,28 @@ const Customers = () => {
                 </tr>
               ) : (
                 customers.map((customer) => (
-                  <tr key={customer._id}>
-                    <td>{customer.name}</td>
-                    <td>{customer.email}</td>
-                    <td>{customer.phone}</td>
-                    <td>{customer.address?.city || '-'}</td>
-                    <td>
-                      <button
-                        className="btn btn-sm btn-secondary"
-                        onClick={() => handleEdit(customer)}
-                      >
-                        Edit
-                      </button>
-                      <button
-                        className="btn btn-sm btn-danger"
-                        onClick={() => handleDelete(customer._id)}
-                        style={{ marginLeft: '0.5rem' }}
-                      >
-                        Delete
-                      </button>
-                    </td>
-                  </tr>
+                 <tr key={customer._id}>
+  <td>{customer.name}</td>
+  <td>{customer.phone}</td>
+  <td>{customer.address?.city || '-'}</td>
+  <td>
+    <button
+      className="btn btn-sm btn-secondary"
+      onClick={() => handleEdit(customer)}
+    >
+      Edit
+    </button>
+    <button
+      className="btn btn-sm btn-danger"
+      onClick={() => handleDelete(customer._id)}
+      style={{ marginLeft: '8px' }}
+    >
+      Delete
+    </button>
+  </td>
+</tr>
+
+
                 ))
               )}
             </tbody>
